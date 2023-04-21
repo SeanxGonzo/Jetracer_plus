@@ -1,5 +1,5 @@
 # steering_command_argument.py
-# Author: Sean Gonzales
+# Author:Sean Gonzales
 #4-21-23 version
 from jetracer.nvidia_racecar import NvidiaRacecar
 
