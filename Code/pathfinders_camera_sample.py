@@ -27,7 +27,7 @@ directory = os.getcwd();
 image_path = os.path.join(directory, 'sample_image_' + uuid + 'jpg')
 
 #Saving the image to file
-with open(image_path,'wb')
+with open (image_path, 'wb') as f:
     f.write(image)
 
 print('New File Created: \n')
