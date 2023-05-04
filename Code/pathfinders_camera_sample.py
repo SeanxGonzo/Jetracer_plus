@@ -24,7 +24,7 @@ image = bgr8_to_jpeg(image)
 #Create a new unique filename to save the file in the new directory.
 uuid = '%s' % (uuid1()) #creates a unique string of characters
 directory = os.getcwd();
-image_path = os.path.join(directory, 'sample_image_' + uuid + '.jpeg')
+image_path = os.path.join(directory, 'sample_image_' + uuid + '.jpg')
 
 #Saving the image to file
 with open (image_path, 'wb') as f:
